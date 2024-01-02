@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/desktop.css" media="(min-width: 994px)">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Inter:wght@300;500&display=swap" rel="stylesheet"> 
     <title>Batatabit</title>
 </head>
 <body>
+    <!-- Here is the  batatabit header section -->
     <header>
         <img src="./assets/images-batatabit/image-logo-batatabit.svg" alt="batatabit-logo-image">
         <div class="header__title-container">
@@ -16,7 +18,9 @@
             <a href="#plans" class="header__button">Learn about our plans<span></span></a>
         </div>
     </header>
+    <!-- Here starts the  batatabit main section -->
     <main>
+
         <section class="main-exchange-container">
             <div class="backgroundImg"></div>
             <div class="main-exchange-container__title">
@@ -26,9 +30,9 @@
             <section class="main-tables-container">
                 <!-- currency table -->
                 <div class="main-currency__table">
-                    <p class="currency-table__tittle">Currencies</p>
                     <!-- here the currencies table start -->
                     <div class="currency-table-container">
+                        <p class="currency-table__tittle">Currencies</p>
                         <table>
                             <!-- this tag generates a row in the table -->
                             <tr> 
@@ -56,11 +60,10 @@
                 </div>
 
                 <!-- commission table -->
-
                 <div class="main-commission__table">
-                    <p class="commission-table__tittle">Commissions</p>
                     <!-- here the currencies table start -->
                     <div class="commission-table-container">
+                        <p class="commission-table__tittle">Commissions</p>
                         <table>
                             <!-- this tag generates a row in the table -->
                             <tr> 
@@ -165,7 +168,7 @@
                     <div class="plan-info-container">
                         <h3 class="plan-card__tittle">Semiannual payment</h3>
                         <p class="plan-card__price"><span>$</span>50</p>
-                        <p class="plan-card__saving">*You save $80 monthly.</p>
+                        <p class="plan-card__saving">*You save $80 monthly compared to other plans.</p>
                         <button class="plan-card__callToAction">Choose this <span></span></button>
                     </div>
                 </article>
@@ -173,6 +176,17 @@
 
         </section>
     </main>
-    <footer></footer>
+    <footer>
+        <section class="left">
+            <ul>
+                <li><a href="#">Linkedin</a></li>
+                <li><a href="#">Crunchbase</a></li>
+                <li><a href="#">Hackernews</a></li>
+            </ul>
+        </section>
+        <section class="right">
+            <img src="./assets/images-batatabit/batatabit-footer-logo.svg" alt="batatabit-logo">
+        </section>
+    </footer>
 </body>
 </html>
